@@ -1,0 +1,277 @@
+{
+    "VFPData": {
+        "xsd:schema": {
+            "-xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+            "-xmlns:msdata": "urn:schemas-microsoft-com:xml-msdata",
+            "-id": "VFPData",
+            "xsd:element": {
+                "-name": "VFPData",
+                "-msdata:IsDataSet": "true",
+                "xsd:complexType": {
+                    "xsd:choice": {
+                        "-maxOccurs": "unbounded",
+                        "xsd:element": {
+                            "-name": "sucursales",
+                            "-minOccurs": "0",
+                            "-maxOccurs": "unbounded",
+                            "xsd:complexType": {
+                                "xsd:sequence": {
+                                    "xsd:element": [
+                                        {
+                                            "-name": "codigo",
+                                            "xsd:simpleType": {
+                                                "xsd:restriction": {
+                                                    "-base": "xsd:decimal",
+                                                    "xsd:totalDigits": {
+                                                        "-value": "4"
+                                                    },
+                                                    "xsd:fractionDigits": {
+                                                        "-value": "0"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "-name": "descripcion",
+                                            "xsd:simpleType": {
+                                                "xsd:restriction": {
+                                                    "-base": "xsd:string",
+                                                    "xsd:maxLength": {
+                                                        "-value": "100"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "-name": "domicilio",
+                                            "xsd:simpleType": {
+                                                "xsd:restriction": {
+                                                    "-base": "xsd:string",
+                                                    "xsd:maxLength": {
+                                                        "-value": "100"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "-name": "localidad",
+                                            "xsd:simpleType": {
+                                                "xsd:restriction": {
+                                                    "-base": "xsd:string",
+                                                    "xsd:maxLength": {
+                                                        "-value": "100"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "-name": "telefono",
+                                            "xsd:simpleType": {
+                                                "xsd:restriction": {
+                                                    "-base": "xsd:string",
+                                                    "xsd:maxLength": {
+                                                        "-value": "50"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "-name": "franja1d",
+                                            "xsd:simpleType": {
+                                                "xsd:restriction": {
+                                                    "-base": "xsd:string",
+                                                    "xsd:maxLength": {
+                                                        "-value": "8"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "-name": "franja1h",
+                                            "xsd:simpleType": {
+                                                "xsd:restriction": {
+                                                    "-base": "xsd:string",
+                                                    "xsd:maxLength": {
+                                                        "-value": "8"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "-name": "franja1i",
+                                            "xsd:simpleType": {
+                                                "xsd:restriction": {
+                                                    "-base": "xsd:decimal",
+                                                    "xsd:totalDigits": {
+                                                        "-value": "9"
+                                                    },
+                                                    "xsd:fractionDigits": {
+                                                        "-value": "2"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "-name": "franja2d",
+                                            "xsd:simpleType": {
+                                                "xsd:restriction": {
+                                                    "-base": "xsd:string",
+                                                    "xsd:maxLength": {
+                                                        "-value": "8"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "-name": "franja2h",
+                                            "xsd:simpleType": {
+                                                "xsd:restriction": {
+                                                    "-base": "xsd:string",
+                                                    "xsd:maxLength": {
+                                                        "-value": "8"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "-name": "franja2i",
+                                            "xsd:simpleType": {
+                                                "xsd:restriction": {
+                                                    "-base": "xsd:decimal",
+                                                    "xsd:totalDigits": {
+                                                        "-value": "9"
+                                                    },
+                                                    "xsd:fractionDigits": {
+                                                        "-value": "2"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "-name": "indice",
+                                            "xsd:simpleType": {
+                                                "xsd:restriction": {
+                                                    "-base": "xsd:decimal",
+                                                    "xsd:totalDigits": {
+                                                        "-value": "9"
+                                                    },
+                                                    "xsd:fractionDigits": {
+                                                        "-value": "2"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "xsd:anyAttribute": {
+                        "-namespace": "http://www.w3.org/XML/1998/namespace",
+                        "-processContents": "lax"
+                    }
+                }
+            }
+        },
+        "sucursales": [
+            {
+                "codigo": "0",
+                "descripcion": "TODAS",
+                "domicilio": {},
+                "localidad": {},
+                "telefono": {},
+                "franja1d": "09:00:00",
+                "franja1h": "23:59:00",
+                "franja1i": "1.00",
+                "franja2d": "24:01:00",
+                "franja2h": "08:59:00",
+                "franja2i": "1.00",
+                "indice": "1.00"
+            },
+            {
+                "codigo": "99",
+                "descripcion": "TODAS",
+                "domicilio": {},
+                "localidad": {},
+                "telefono": {},
+                "franja1d": "09:00:00",
+                "franja1h": "23:59:00",
+                "franja1i": "1.00",
+                "franja2d": "24:01:00",
+                "franja2h": "08:59:00",
+                "franja2i": "1.00",
+                "indice": "1.00"
+            },
+            {
+                "codigo": "1",
+                "descripcion": "LOS POZOS",
+                "domicilio": {},
+                "localidad": {},
+                "telefono": {},
+                "franja1d": "09:00:00",
+                "franja1h": "23:59:00",
+                "franja1i": "1.00",
+                "franja2d": "24:01:00",
+                "franja2h": "08:59:00",
+                "franja2i": "1.00",
+                "indice": "1.00"
+            },
+            {
+                "codigo": "5",
+                "descripcion": "CENTRAL",
+                "domicilio": {},
+                "localidad": {},
+                "telefono": {},
+                "franja1d": "09:00:00",
+                "franja1h": "23:59:00",
+                "franja1i": "1.00",
+                "franja2d": "24:01:00",
+                "franja2h": "08:59:00",
+                "franja2i": "1.00",
+                "indice": "1.00"
+            },
+            {
+                "codigo": "6",
+                "descripcion": "KM 45",
+                "domicilio": {},
+                "localidad": {},
+                "telefono": {},
+                "franja1d": "09:00:00",
+                "franja1h": "23:59:00",
+                "franja1i": "1.00",
+                "franja2d": "24:01:00",
+                "franja2h": "08:59:00",
+                "franja2i": "1.00",
+                "indice": "1.00"
+            },
+            {
+                "codigo": "7",
+                "descripcion": "KM 55",
+                "domicilio": {},
+                "localidad": {},
+                "telefono": {},
+                "franja1d": "09:00:00",
+                "franja1h": "23:59:00",
+                "franja1i": "1.00",
+                "franja2d": "24:01:00",
+                "franja2h": "08:59:00",
+                "franja2i": "1.00",
+                "indice": "1.00"
+            },
+            {
+                "codigo": "8",
+                "descripcion": "SANTA ANITA",
+                "domicilio": {},
+                "localidad": {},
+                "telefono": {},
+                "franja1d": "09:00:00",
+                "franja1h": "23:59:00",
+                "franja1i": "1.00",
+                "franja2d": "24:01:00",
+                "franja2h": "08:59:00",
+                "franja2i": "1.00",
+                "indice": "1.00"
+            }
+        ]
+    }
+}

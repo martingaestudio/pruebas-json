@@ -1,0 +1,204 @@
+<?xml version = "1.0" encoding="Windows-1252" standalone="yes"?>
+<VFPData>
+	<xsd:schema id="VFPData" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="VFPData" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="sucursales" minOccurs="0" maxOccurs="unbounded">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="codigo">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="4"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="descripcion">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="100"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="domicilio">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="100"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="localidad">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="100"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="telefono">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="franja1d">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="8"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="franja1h">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="8"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="franja1i">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="9"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="franja2d">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="8"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="franja2h">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="8"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="franja2i">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="9"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="indice">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="9"/>
+											<xsd:fractionDigits value="2"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+				<xsd:anyAttribute namespace="http://www.w3.org/XML/1998/namespace" processContents="lax"/>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<sucursales>
+		<codigo>0</codigo>
+		<descripcion>TODAS</descripcion>
+		<domicilio/>
+		<localidad/>
+		<telefono/>
+		<franja1d>09:00:00</franja1d>
+		<franja1h>23:59:00</franja1h>
+		<franja1i>1.00</franja1i>
+		<franja2d>24:01:00</franja2d>
+		<franja2h>08:59:00</franja2h>
+		<franja2i>1.00</franja2i>
+		<indice>1.00</indice>
+	</sucursales>
+	<sucursales>
+		<codigo>99</codigo>
+		<descripcion>TODAS</descripcion>
+		<domicilio/>
+		<localidad/>
+		<telefono/>
+		<franja1d>09:00:00</franja1d>
+		<franja1h>23:59:00</franja1h>
+		<franja1i>1.00</franja1i>
+		<franja2d>24:01:00</franja2d>
+		<franja2h>08:59:00</franja2h>
+		<franja2i>1.00</franja2i>
+		<indice>1.00</indice>
+	</sucursales>
+	<sucursales>
+		<codigo>1</codigo>
+		<descripcion>LOS POZOS</descripcion>
+		<domicilio/>
+		<localidad/>
+		<telefono/>
+		<franja1d>09:00:00</franja1d>
+		<franja1h>23:59:00</franja1h>
+		<franja1i>1.00</franja1i>
+		<franja2d>24:01:00</franja2d>
+		<franja2h>08:59:00</franja2h>
+		<franja2i>1.00</franja2i>
+		<indice>1.00</indice>
+	</sucursales>
+	<sucursales>
+		<codigo>5</codigo>
+		<descripcion>CENTRAL</descripcion>
+		<domicilio/>
+		<localidad/>
+		<telefono/>
+		<franja1d>09:00:00</franja1d>
+		<franja1h>23:59:00</franja1h>
+		<franja1i>1.00</franja1i>
+		<franja2d>24:01:00</franja2d>
+		<franja2h>08:59:00</franja2h>
+		<franja2i>1.00</franja2i>
+		<indice>1.00</indice>
+	</sucursales>
+	<sucursales>
+		<codigo>6</codigo>
+		<descripcion>KM 45</descripcion>
+		<domicilio/>
+		<localidad/>
+		<telefono/>
+		<franja1d>09:00:00</franja1d>
+		<franja1h>23:59:00</franja1h>
+		<franja1i>1.00</franja1i>
+		<franja2d>24:01:00</franja2d>
+		<franja2h>08:59:00</franja2h>
+		<franja2i>1.00</franja2i>
+		<indice>1.00</indice>
+	</sucursales>
+	<sucursales>
+		<codigo>7</codigo>
+		<descripcion>KM 55</descripcion>
+		<domicilio/>
+		<localidad/>
+		<telefono/>
+		<franja1d>09:00:00</franja1d>
+		<franja1h>23:59:00</franja1h>
+		<franja1i>1.00</franja1i>
+		<franja2d>24:01:00</franja2d>
+		<franja2h>08:59:00</franja2h>
+		<franja2i>1.00</franja2i>
+		<indice>1.00</indice>
+	</sucursales>
+	<sucursales>
+		<codigo>8</codigo>
+		<descripcion>SANTA ANITA</descripcion>
+		<domicilio/>
+		<localidad/>
+		<telefono/>
+		<franja1d>09:00:00</franja1d>
+		<franja1h>23:59:00</franja1h>
+		<franja1i>1.00</franja1i>
+		<franja2d>24:01:00</franja2d>
+		<franja2h>08:59:00</franja2h>
+		<franja2i>1.00</franja2i>
+		<indice>1.00</indice>
+	</sucursales>
+</VFPData>
